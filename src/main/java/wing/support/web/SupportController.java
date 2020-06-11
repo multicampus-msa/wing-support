@@ -54,5 +54,4 @@ public class SupportController {
     private String deleteByUid(@PathVariable("uid") String uid) {
         return supportService.deleteByUid(uid);
     }
-    
 }
